@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  background-color: red;
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 180px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.container .header {
+  background: #721d1d;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.container .q {
+  padding: 5px;
+  color: #fff;
+}
+
+.container .bAmount {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5px 68px 5px;
+}
+
+.container .bAmount p {
+  margin-left: -15px;
+  display: inline;
+}
+
+.container #billamt {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  width: 200px;
+  padding: 10px;
+}
+
+.container #numOfPeople {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  width: 200px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.container #billamt:focus {
+  background: #fff;
+  border: 2px solid #2980b9;
+  outline: none;
+}
+
+.container #calculate {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background: #000;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.container #calculate:active {
+  outline: none;
+}
+
+.container #totalTip {
+  margin-top: 40px;
+  color: #fff;
+  font-size: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
